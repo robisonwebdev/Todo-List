@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/robisonwebdev/Todo-List/issues"
   },
-  "homepage": "https://github.com/robisonwebdev/Todo-List#readme"
+  "homepage": "https://github.com/robisonwebdev/Todo-List#readme",
+  "devDependencies": {
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  }
 }
