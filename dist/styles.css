@@ -13,6 +13,8 @@
     width: 100vw;
 }
 
+/* --- HEADER --- */
+
 #header {
     display: flex;
     flex-direction: row;
@@ -23,10 +25,22 @@
     width: 100%;
 }
 
+/* --- CONTENT --- */
+
 #content {
+    display: flex;
+    flex-direction: row;
+
     height: 100%;
     width: 100%;
 }
+
+#projects {
+    height: 100%;
+    width: 20vw;
+}
+
+/* --- FOOTER --- */
 
 #footer {
     display: flex;
