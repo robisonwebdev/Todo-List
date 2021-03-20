@@ -1,3 +1,6 @@
+import projects from './projects';
+import list from './list';
+
 function content() {
     const content = document.createElement('div');
 
