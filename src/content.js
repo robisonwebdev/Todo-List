@@ -6,6 +6,9 @@ function content() {
 
     content.setAttribute('id', 'content');
 
+    content.appendChild(projects());
+    content.appendChild(list());
+
     return content
 }
 
