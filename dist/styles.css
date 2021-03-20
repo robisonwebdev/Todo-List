@@ -23,6 +23,8 @@
 
     height: 10vh;
     width: 100%;
+
+    background-color: gray;
 }
 
 /* --- CONTENT --- */
@@ -38,11 +40,15 @@
 #projects {
     height: 100%;
     width: 20vw;
+    
+    background-color: rgb(214, 145, 145);
 }
 
 #list {
     height: 100%;
     width: 80vw;
+
+    background-color: rgb(233, 214, 107);
 }
 
 /* --- FOOTER --- */
@@ -55,4 +61,6 @@
 
     height: 4vh;
     width: 100%;
+
+    background-color: rgb(61, 150, 73);
 }
