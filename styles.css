@@ -44,7 +44,7 @@
     background-color: rgb(214, 145, 145);
 }
 
-#list {
+#itemsContainer {
     height: 100%;
     width: 80vw;
 
