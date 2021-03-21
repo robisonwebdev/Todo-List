@@ -1,9 +1,9 @@
-function list() {
-    const list = document.createElement('div');
+function itemsContainer() {
+    const itemsContainer = document.createElement('div');
 
-    list.setAttribute('id', 'list');
+    itemsContainer.setAttribute('id', 'itemsContainer');
 
-    return list;
+    return itemsContainer;
 }
 
-export default list;
+export default itemsContainer;
