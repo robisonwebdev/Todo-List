@@ -1,9 +1,9 @@
-function projects() {
-    const projects = document.createElement('div');
+function projectsContainer() {
+    const projectsContainer = document.createElement('div');
 
-    projects.setAttribute('id', 'projects');
+    projectsContainer.setAttribute('id', 'projectsContainer');
 
-    return projects;
+    return projectsContainer;
 }
 
-export default projects;
+export default projectsContainer;
