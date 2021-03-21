@@ -1,4 +1,4 @@
-import projects from './projects';
+import projectsContainer from './projectsContainer';
 import list from './list';
 
 function content() {
@@ -6,7 +6,7 @@ function content() {
 
     content.setAttribute('id', 'content');
 
-    content.appendChild(projects());
+    content.appendChild(projectsContainer());
     content.appendChild(list());
 
     return content
