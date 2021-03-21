@@ -1,11 +1,5 @@
 import projects from './projects';
-
-class project {
-    constructor(title, dataKey) {
-        this.title = title;
-        this.dataKey = dataKey;
-    }
-}
+import project from './projectClass';
 
 function addProject(title, dataKey) {
     const newProject = new project(title, dataKey);
