@@ -1,5 +1,5 @@
 import projectsContainer from './projectsContainer';
-import list from './list';
+import itemContainer from './itemsContainer';
 
 function content() {
     const content = document.createElement('div');
@@ -7,7 +7,7 @@ function content() {
     content.setAttribute('id', 'content');
 
     content.appendChild(projectsContainer());
-    content.appendChild(list());
+    content.appendChild(itemContainer());
 
     return content
 }
