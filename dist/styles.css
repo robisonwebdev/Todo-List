@@ -62,6 +62,12 @@
     padding-bottom: 5px;
 }
 
+.projectItemsRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 #itemsContainer {
     height: 100%;
     width: 80vw;
