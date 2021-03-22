@@ -44,6 +44,17 @@
     background-color: rgb(214, 145, 145);
 }
 
+.projectItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 #itemsContainer {
     height: 100%;
     width: 80vw;
