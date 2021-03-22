@@ -12,19 +12,27 @@ function projectsList() {
     projectsList.appendChild(projectsHeader);
 
     projects.forEach((project) => {
-        const projectItem = document.createElement('div');
+        const projectItems = document.createElement('div');
+        const projectItemsLeft = document.createElement('div');
+        const projectItemsRight = document.createElement('div');
         const projectTitle = document.createElement('h4');
         const projectIcon = document.createElement('i');
+        const projectDeleteBtn = document.createElement('i');
 
-        projectItem.setAttribute('class', 'projectItems')
+        projectItems.setAttribute('class', 'projectItems')
+        projectItemsLeft.setAttribute('class', 'projectItemsLeft');
+        projectItemsRight.setAttribute('class', 'projectItemsRight');
         projectTitle.setAttribute('class', 'projectTitle');
         projectIcon.setAttribute('class', 'las la-tasks');
+        projectDeleteBtn.setAttribute('class', 'las la-trash');
 
         projectTitle.innerText = project['name'];
 
-        projectItem.appendChild(projectIcon);
-        projectItem.appendChild(projectTitle);
-        projectsList.appendChild(projectItem);
+        projectItemsLeft.appendChild(projectIcon);
+        projectItemsLeft.appendChild(projectTitle);
+        projectItemsRight.appendChild(projectDeleteBtn);
+        projectsList.appendChild(projectItemsLeft);
+        projectsList.appendChild(projectItemsRight);
     })
 
     return projectsList;
