@@ -16,7 +16,7 @@ function projectsList() {
         const projectTitle = document.createElement('h4');
         const projectIcon = document.createElement('i');
 
-        projectItem.setAttribute('class', 'projectItem')
+        projectItem.setAttribute('class', 'projectItems')
         projectTitle.setAttribute('class', 'projectTitle');
         projectIcon.setAttribute('class', 'las la-tasks');
 
