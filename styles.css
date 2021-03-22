@@ -44,6 +44,13 @@
     background-color: rgb(214, 145, 145);
 }
 
+.projectItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .projectItemsLeft {
     display: flex;
     flex-direction: row;
