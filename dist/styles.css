@@ -101,7 +101,8 @@
     gap: 5px;
 
     cursor: pointer;
-    margin: 5px 15px;
+    margin-left: 30px;
+    padding-top: 5px;
 }
 
 #itemsContainer {
