@@ -31,8 +31,9 @@ function projectsList() {
         projectItemsLeft.appendChild(projectIcon);
         projectItemsLeft.appendChild(projectTitle);
         projectItemsRight.appendChild(projectDeleteBtn);
-        projectsList.appendChild(projectItemsLeft);
-        projectsList.appendChild(projectItemsRight);
+        projectItems.appendChild(projectItemsLeft);
+        projectItems.appendChild(projectItemsRight);
+        projectsList.appendChild(projectItems);
     })
 
     return projectsList;
