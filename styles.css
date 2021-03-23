@@ -56,6 +56,10 @@
     padding-bottom: 5px;
 }
 
+#projects {
+    margin-left: 15px;
+}
+
 .projectItems {
     display: flex;
     flex-direction: row;
