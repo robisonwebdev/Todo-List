@@ -1,5 +1,4 @@
-import addProjectBtn from "./addProjectBtn";
-import projects from "./projects";
+import cancelBtnEventListener from "./cancelBtnEventListener";
 
 function addProjectForm() {
     const projectsContainer = document.querySelector('#projectsContainer');
@@ -20,9 +19,13 @@ function addProjectForm() {
     addBtn.setAttribute('class', 'addProjectFormBtns');
     cancelBtn.setAttribute('type', 'button');
     cancelBtn.setAttribute('class', 'addProjectFormBtns');
+    cancelBtn.setAttribute('id', 'cancelBtn');
 
     addBtn.innerText = 'Add';
     cancelBtn.innerText = 'Cancel';
+
+    addBtnEventLinstener(addBtn);
+    cancelBtnEventListener(cancelBtn);
 
     inputDiv.appendChild(label);
     inputDiv.appendChild(input);
