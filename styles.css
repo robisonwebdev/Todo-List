@@ -44,6 +44,10 @@
     background-color: rgb(214, 145, 145);
 }
 
+.las {
+    font-size: 24px;
+}
+
 #allProjects {
     display: flex;
     flex-direction: row;
