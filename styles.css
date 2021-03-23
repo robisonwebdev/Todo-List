@@ -44,6 +44,18 @@
     background-color: rgb(214, 145, 145);
 }
 
+#allProjects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .projectItems {
     display: flex;
     flex-direction: row;
