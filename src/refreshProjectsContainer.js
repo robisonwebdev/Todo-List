@@ -5,3 +5,5 @@ function refreshProjectsContainer() {
 
     const projectsContainer = document.querySelector('#projectsContainer');
 }
+
+export default refreshProjectsContainer;
