@@ -1,7 +1,7 @@
-function removeProjectsList() {
-    const projects = document.querySelector('#projects');
+function removeProjectsContainerChildren() {
+    const projectsContainer = document.querySelector('#projectsContainer');
 
-    projects.innerHTML = '';
+    projectsContainer.innerHTML = '';
 }
 
-export default removeProjectsList;
+export default removeProjectsContainerChildren;
