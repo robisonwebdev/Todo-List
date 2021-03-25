@@ -1,10 +1,10 @@
 import projects from './projects';
 import project from './projectClass';
 
-function addProject(title) {
-    const dataKey = `${title}_${Math.floor((Math.random() * 100000) + 1)}`;
+function addProject(name) {
+    const dataKey = `${name}_${Math.floor((Math.random() * 100000) + 1)}`;
 
-    const newProject = new project(title, dataKey);
+    const newProject = new project(name, dataKey);
 
     projects.push(newProject);
 }
