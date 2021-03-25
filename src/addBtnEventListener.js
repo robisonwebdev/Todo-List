@@ -9,7 +9,6 @@ function addBtnEventLinstener(target) {
         const inputValue = document.querySelector('#projectName').value;
 
         addProject(inputValue);
-        removeProjectForm();
         refreshProjectsContainer();
     })
 }
