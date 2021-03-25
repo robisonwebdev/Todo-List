@@ -1,6 +1,11 @@
+import addProject from "./addProject";
+import projects from "./projects";
+
 function addBtnEventLinstener(target) {
     target.addEventListener('click', () => {
-        console.log('Add Clicked');
+        const inputValue = document.querySelector('#projectName').value;
+
+        addProject(inputValue);
     })
 }
 
