@@ -1,3 +1,5 @@
+import addProjectForm from './addProjectForm';
+
 function addProjectBtn() {
     const addProjectBtn = document.createElement('div');
     const addProjectIcon = document.createElement('i');
@@ -11,6 +13,10 @@ function addProjectBtn() {
 
     addProjectBtn.appendChild(addProjectIcon);
     addProjectBtn.appendChild(addProjectText);
+
+    addProjectBtn.addEventListener('click', () => {
+        addProjectForm();
+    })
 
     return addProjectBtn
 }
