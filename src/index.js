@@ -16,11 +16,3 @@ const container = document.querySelector('#container');
 container.appendChild(header('las la-list-ul', 'Todo List'));
 container.appendChild(content());
 container.appendChild(footer('Developed by ', 'David Robison', 'https://github.com/robisonwebdev'));
-
-const addProjectBtnEvent = document.querySelector('#addProjectBtn');
-
-
-addProjectBtnEvent.addEventListener('click', () => {
-    addProjectForm();
-});
-
