@@ -8,8 +8,10 @@ function addBtnEventLinstener(target) {
     target.addEventListener('click', () => {
         const inputValue = document.querySelector('#projectName').value;
 
-        addProject(inputValue);
-        refreshProjectsContainer();
+        if (inputValue !== '') {
+            addProject(inputValue);
+            refreshProjectsContainer();
+        }
     })
 }
 
