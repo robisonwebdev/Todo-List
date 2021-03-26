@@ -1,4 +1,5 @@
 import projects from './projects';
+import delBtnEventListener from './delBtnEventListener';
 
 function projectsList() {
     const projectsList = document.createElement('div');
@@ -27,6 +28,8 @@ function projectsList() {
         projectDeleteBtn.setAttribute('class', 'las la-trash');
 
         projectTitle.innerText = project['name'];
+
+        delBtnEventListener(projectDeleteBtn, project);
 
         projectItemsLeft.appendChild(projectIcon);
         projectItemsLeft.appendChild(projectTitle);
