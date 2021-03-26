@@ -1,4 +1,5 @@
 import addProjectForm from './addProjectForm';
+import changeDisplay from './changeDisplay';
 
 function addProjectBtn() {
     const addProjectBtn = document.createElement('div');
@@ -15,6 +16,7 @@ function addProjectBtn() {
     addProjectBtn.appendChild(addProjectText);
 
     addProjectBtn.addEventListener('click', () => {
+        changeDisplay('#addProjectBtn', false);
         addProjectForm();
     })
 
