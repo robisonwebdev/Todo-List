@@ -1,7 +1,8 @@
 class project {
-    constructor(name, dataKey) {
+    constructor(name, dataKey, todo) {
         this.name = name;
         this.dataKey = dataKey;
+        this.todo = todo;
     }
 }
 
