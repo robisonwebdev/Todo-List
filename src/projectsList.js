@@ -1,5 +1,6 @@
 import projects from './projects';
 import delBtnEventListener from './delBtnEventListener';
+import projectEventListener from './projectEventListener';
 
 function projectsList() {
     const projectsList = document.createElement('div');
@@ -29,6 +30,7 @@ function projectsList() {
 
         projectTitle.innerText = project['name'];
 
+        projectEventListener(projectItemsLeft, project);
         delBtnEventListener(projectDeleteBtn, project);
 
         projectItemsLeft.appendChild(projectIcon);
