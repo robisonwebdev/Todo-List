@@ -1,11 +1,11 @@
-function projectHeader(name) {
-    const projectHeader = document.createElement('h2');
+function todoListProjectName(name) {
+    const todoListProjectName = document.createElement('h2');
 
-    projectHeader.setAttribute('class', 'todoListProjectName');
+    todoListProjectName.setAttribute('class', 'todoListProjectName');
 
-    projectHeader.innerText = name;
+    todoListProjectName.innerText = name;
 
-    return projectHeader;
+    return todoListProjectName;
 }
 
-export default projectHeader;
+export default todoListProjectName;
