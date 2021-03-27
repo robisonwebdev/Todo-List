@@ -1,6 +1,6 @@
 import todoListProjectName from "./todoListProjectName";
 
-function projectTodoList(project) {
+function todoList(project) {
     const itemsContainer = document.querySelector('#itemsContainer');
     const todoList = document.createElement('div');
     const todoListHeader = document.createElement('div');
@@ -26,4 +26,4 @@ function projectTodoList(project) {
     // return itemsContainer;
 }
 
-export default projectTodoList;
+export default todoList;
