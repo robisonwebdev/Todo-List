@@ -1,7 +1,7 @@
 function projectHeader(name) {
     const projectHeader = document.createElement('h2');
 
-    projectHeader.setAttribute('id', 'projectHeader');
+    projectHeader.setAttribute('class', 'todoListProjectName');
 
     projectHeader.innerText = name;
 
