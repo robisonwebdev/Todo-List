@@ -1,7 +1,7 @@
-function clearItemsContainer() {
-    const itemsContainer = document.querySelector('#itemsContainer');
+function clearTodoContainer() {
+    const todoContainer = document.querySelector('#todoContainer');
 
-    return itemsContainer.innerHTML = '';
+    return todoContainer.innerHTML = '';
 }
 
-export default clearItemsContainer;
+export default clearTodoContainer;
