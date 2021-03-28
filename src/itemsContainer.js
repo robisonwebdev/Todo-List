@@ -1,9 +1,9 @@
-function itemsContainer() {
-    const itemsContainer = document.createElement('div');
+function todoContainer() {
+    const todoContainer = document.createElement('div');
 
-    itemsContainer.setAttribute('id', 'itemsContainer');
+    todoContainer.setAttribute('id', 'todoContainer');
 
-    return itemsContainer;
+    return todoContainer;
 }
 
-export default itemsContainer;
+export default todoContainer;
