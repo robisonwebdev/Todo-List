@@ -1,3 +1,4 @@
+import addTodoItemBtn from "./addTodoItemBtn";
 import getProjectTodos from "./getProjectTodos";
 import todoListProjectName from "./todoListProjectName";
 
@@ -14,6 +15,7 @@ function todoList(project) {
 
     todoContainer.appendChild(todoHeader);
     todoContainer.appendChild(todoList);
+    todoContainer.appendChild(addTodoItemBtn());
 }
 
 export default todoList;
