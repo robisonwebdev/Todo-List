@@ -1,29 +1,19 @@
+import getProjectTodos from "./getProjectTodos";
 import todoListProjectName from "./todoListProjectName";
 
 function todoList(project) {
-    const itemsContainer = document.querySelector('#itemsContainer');
+    const todoContainer = document.querySelector('#todoContainer');
+    const todoHeader = document.createElement('div');
     const todoList = document.createElement('div');
-    const todoListHeader = document.createElement('div');
 
+    todoHeader.setAttribute('id', 'todoHeader');
     todoList.setAttribute('id', 'todoList');
-    todoListHeader.setAttribute('id', 'todoListHeader');
     
-    todoListHeader.appendChild(todoListProjectName(project['name']));
+    todoHeader.appendChild(todoListProjectName(project['name']));
+    todoList.appendChild(getProjectTodos(project));
 
-    todoList.appendChild(todoListHeader);
-    itemsContainer.appendChild(todoList);
-
-    // todoList.appendChild();
-
-    // for (let i = 0; i < project['todo'].length; i++) {
-    //     const para = document.createElement('p');
-        
-    //     para.innerText = project['todo'][i];
-
-    //     itemsContainer.appendChild(para);
-    // }
-
-    // return itemsContainer;
+    todoContainer.appendChild(todoHeader);
+    todoContainer.appendChild(todoList);
 }
 
 export default todoList;
