@@ -1,9 +1,9 @@
-import clearItemsContainer from "./clearItemsContainer";
+import clearTodoContainer from "./clearTodoContainer";
 import todoList from "./todoList";
 
 function projectEventListener(target, project) {
     target.addEventListener('click', () => {
-        clearItemsContainer();
+        clearTodoContainer();
         todoList(project);
     })
 }
