@@ -2,14 +2,14 @@ import cancelTodoFormEventListener from "./cancelTodoFormEventListener";
 
 function displayTodoForm() {
     const todoContainer = document.querySelector('#todoContainer');
-    const addTodoItemForm = document.createElement('div');
+    const todoForm = document.createElement('div');
     const inputDiv = document.createElement('div');
     const btnsDiv = document.createElement('div');
     const todoItemInput = document.createElement('input');
     const addBtn = document.createElement('button');
     const cancelBtn = document.createElement('button');
 
-    addTodoItemForm.setAttribute('id', 'addTodoItemForm');
+    todoForm.setAttribute('id', 'todoForm');
     todoItemInput.setAttribute('type', 'text');
     todoItemInput.setAttribute('id', 'todoItemInput');
     todoItemInput.setAttribute('name', 'todoItemInput');
@@ -26,9 +26,9 @@ function displayTodoForm() {
     inputDiv.appendChild(todoItemInput);
     btnsDiv.appendChild(addBtn);
     btnsDiv.appendChild(cancelBtn);
-    addTodoItemForm.appendChild(inputDiv);
-    addTodoItemForm.appendChild(btnsDiv);
-    todoContainer.appendChild(addTodoItemForm);
+    todoForm.appendChild(inputDiv);
+    todoForm.appendChild(btnsDiv);
+    todoContainer.appendChild(todoForm);
 
     return todoContainer;
 }
