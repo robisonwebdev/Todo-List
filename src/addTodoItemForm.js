@@ -1,4 +1,6 @@
-function addTodoItemForm() {
+import cancelTodoFormEventListener from "./cancelTodoFormEventListener";
+
+function displayTodoForm() {
     const todoContainer = document.querySelector('#todoContainer');
     const addTodoItemForm = document.createElement('div');
     const inputDiv = document.createElement('div');
@@ -19,7 +21,7 @@ function addTodoItemForm() {
     addBtn.innerText = 'Add Item';
     cancelBtn.innerText = 'Cancel';
 
-    // EventListeners
+    cancelTodoFormEventListener(cancelBtn);
 
     inputDiv.appendChild(todoItemInput);
     btnsDiv.appendChild(addBtn);
@@ -31,4 +33,4 @@ function addTodoItemForm() {
     return todoContainer;
 }
 
-export default addTodoItemForm;
+export default displayTodoForm;
