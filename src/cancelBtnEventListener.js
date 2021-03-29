@@ -1,3 +1,5 @@
+// Event listener for canceling the add project form.
+
 import changeDisplay from './changeDisplay';
 import removeProjectForm from './removeProjectForm';
 

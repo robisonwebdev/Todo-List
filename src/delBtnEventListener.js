@@ -1,3 +1,5 @@
+// Event listener to delete a project
+
 import deleteProject from './deleteProject';
 import refreshProjectsContainer from './refreshProjectsContainer';
 

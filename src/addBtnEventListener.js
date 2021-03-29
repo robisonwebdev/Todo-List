@@ -1,3 +1,5 @@
+// Event listener to add project
+
 import addProject from "./addProject";
 import refreshProjectsContainer from './refreshProjectsContainer';
 

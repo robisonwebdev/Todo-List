@@ -1,3 +1,5 @@
+// Event Listener for clicking on a project.
+
 import clearTodoContainer from "./clearTodoContainer";
 import todoList from "./todoList";
 
