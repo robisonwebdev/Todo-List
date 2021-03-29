@@ -1,8 +1,8 @@
 function removeTodoForm() {
     const todoContainer = document.querySelector('#todoContainer');
-    const addTodoItemForm = document.querySelector('#addTodoItemForm');
+    const todoForm = document.querySelector('#todoForm');
 
-    todoContainer.removeChild(addTodoItemForm);
+    todoContainer.removeChild(todoForm);
 
     return todoContainer;
 }
