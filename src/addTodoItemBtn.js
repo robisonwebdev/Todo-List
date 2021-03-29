@@ -1,3 +1,5 @@
+import addItemBtnEventListener from "./addItemBtnEventListener";
+
 function addTodoItemBtn() {
     const addTodoItemBtn = document.createElement('div');
     const addTodoItemText = document.createElement('p');
@@ -6,6 +8,7 @@ function addTodoItemBtn() {
     addTodoItemText.setAttribute('id', 'addTodoItemText');
 
     addTodoItemText.innerText = 'Add Item';
+    addItemBtnEventListener(addTodoItemBtn);
 
     addTodoItemBtn.appendChild(addTodoItemText);
 
