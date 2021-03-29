@@ -5,14 +5,14 @@ function displayTodoForm() {
     const todoForm = document.createElement('div');
     const inputDiv = document.createElement('div');
     const btnsDiv = document.createElement('div');
-    const todoItemInput = document.createElement('input');
+    const todoInput = document.createElement('input');
     const addBtn = document.createElement('button');
     const cancelBtn = document.createElement('button');
 
     todoForm.setAttribute('id', 'todoForm');
-    todoItemInput.setAttribute('type', 'text');
-    todoItemInput.setAttribute('id', 'todoItemInput');
-    todoItemInput.setAttribute('name', 'todoItemInput');
+    todoInput.setAttribute('type', 'text');
+    todoInput.setAttribute('id', 'todoInput');
+    todoInput.setAttribute('name', 'todoInput');
     addBtn.setAttribute('type', 'button');
     addBtn.setAttribute('class', 'todoFormBtns');
     cancelBtn.setAttribute('type', 'button');
@@ -23,7 +23,7 @@ function displayTodoForm() {
 
     cancelTodoFormEventListener(cancelBtn);
 
-    inputDiv.appendChild(todoItemInput);
+    inputDiv.appendChild(todoInput);
     btnsDiv.appendChild(addBtn);
     btnsDiv.appendChild(cancelBtn);
     todoForm.appendChild(inputDiv);
