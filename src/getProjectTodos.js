@@ -1,20 +1,26 @@
 function getProjectTodos(project) {
-    const projectTodoList = document.createElement('div');
     const ul = document.createElement('ul');
 
-    projectTodoList.setAttribute('id', 'projectTodoList');
-
     for (let i = 0; i < project['todo'].length; i++) {
+        const item = document.createElement('div');
+        const checkbox = document.createElement('input');
+        const label = document.createElement('label');
         const li = document.createElement('li');
 
-        li.innerText = project['todo'][i];
+        item.setAttribute('class', 'item');
+        checkbox.setAttribute('type', 'checkbox');
+        checkbox.setAttribute('name', `${project['dataKey']}_${project['todo'][i]}`);
+        label.setAttribute('for', `${project['dataKey']}_${project['todo'][i]}`);
 
+        label.innerText = project['todo'][i];
+
+        item.appendChild(checkbox);
+        item.appendChild(label);
+        li.appendChild(item);
         ul.appendChild(li);
     }
 
-    projectTodoList.appendChild(ul);
-
-    return projectTodoList;
+    return ul;
 }
 
 export default getProjectTodos;
