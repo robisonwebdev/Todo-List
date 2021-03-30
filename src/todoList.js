@@ -8,6 +8,7 @@ function todoList(project) {
     const todoList = document.createElement('div');
 
     todoHeader.setAttribute('id', 'todoHeader');
+    todoHeader.setAttribute('dataKey', project['dataKey']);
     todoList.setAttribute('id', 'todoList');
     
     todoHeader.appendChild(todoListProjectName(project['name']));
@@ -15,7 +16,7 @@ function todoList(project) {
 
     todoContainer.appendChild(todoHeader);
     todoContainer.appendChild(todoList);
-    todoContainer.appendChild(addTodoItemBtn());
+    todoContainer.appendChild(addTodoItemBtn(project));
 }
 
 export default todoList;
