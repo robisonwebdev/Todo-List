@@ -1,3 +1,4 @@
+import addTodoFormEventListner from './addTodoFormEventListener';
 import cancelTodoFormEventListener from "./cancelTodoFormEventListener";
 
 function displayTodoForm() {
@@ -21,6 +22,7 @@ function displayTodoForm() {
     addBtn.innerText = 'Add Item';
     cancelBtn.innerText = 'Cancel';
 
+    addTodoFormEventListner(addBtn);
     cancelTodoFormEventListener(cancelBtn);
 
     inputDiv.appendChild(todoInput);
