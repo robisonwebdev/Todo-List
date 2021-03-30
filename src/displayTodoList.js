@@ -1,4 +1,4 @@
-function getProjectTodos(project) {
+function displayTodoList(project) {
     const ul = document.createElement('ul');
 
     for (let i = 0; i < project['todo'].length; i++) {
@@ -23,4 +23,4 @@ function getProjectTodos(project) {
     return ul;
 }
 
-export default getProjectTodos;
+export default displayTodoList;
