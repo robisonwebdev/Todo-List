@@ -126,6 +126,10 @@
     background-color: rgb(233, 214, 107);
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* --- FOOTER --- */
 
 #footer {
