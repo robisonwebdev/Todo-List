@@ -1,5 +1,5 @@
 import addTodoItemBtn from "./addTodoItemBtn";
-import getProjectTodos from "./getProjectTodos";
+import displayTodoList from "./displayTodoList";
 import todoListProjectName from "./todoListProjectName";
 
 function todoList(project) {
@@ -12,7 +12,7 @@ function todoList(project) {
     todoList.setAttribute('id', 'todoList');
     
     todoHeader.appendChild(todoListProjectName(project['name']));
-    todoList.appendChild(getProjectTodos(project));
+    todoList.appendChild(displayTodoList(project));
 
     todoContainer.appendChild(todoHeader);
     todoContainer.appendChild(todoList);
