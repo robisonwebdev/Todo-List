@@ -1,3 +1,5 @@
+import allProjectsEventListener from "./allProjectsEventListener";
+
 function allProjects() {
     const allProjects = document.createElement('div');
     const allProjectsIcon = document.createElement('i');
@@ -11,6 +13,8 @@ function allProjects() {
 
     allProjects.appendChild(allProjectsIcon);
     allProjects.appendChild(allProjectsTitle);
+
+    allProjectsEventListener(allProjects);
 
     return allProjects;
 }
