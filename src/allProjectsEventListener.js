@@ -1,6 +1,8 @@
+import allTodos from "./allTodos";
+
 function allProjectsEventListener(target) {
     target.addEventListener('click', () => {
-        console.log('Working');
+        allTodos();
     })
 }
 
