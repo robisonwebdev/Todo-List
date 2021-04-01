@@ -1,7 +1,7 @@
 // Event listener to add project
 
-import addProject from "./addProject";
-import refreshProjectsContainer from './refreshProjectsContainer';
+import addProject from "../addProject";
+import refreshProjectsContainer from '../refreshProjectsContainer';
 
 function addBtnEventListener(target) {
     target.addEventListener('click', () => {
