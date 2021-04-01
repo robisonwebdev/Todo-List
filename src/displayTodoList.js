@@ -11,13 +11,14 @@ function displayTodoList(project) {
 
         item.setAttribute('class', 'item');
         checkbox.setAttribute('type', 'checkbox');
+        checkbox.setAttribute('dataKey', `${project['dataKey']}`);
         checkbox.setAttribute('name', `${project['dataKey']}_${project['todo'][i]}`);
         label.setAttribute('for', `${project['dataKey']}_${project['todo'][i]}`);
 
         label.innerText = project['todo'][i];
 
-        checkboxEventListener(checkbox);
-        
+        checkboxEventListener(checkbox, label.innerText);
+
         item.appendChild(checkbox);
         item.appendChild(label);
         li.appendChild(item);
