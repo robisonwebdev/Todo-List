@@ -7,6 +7,7 @@ function allTodos() {
     const todoList = document.createElement('div');
 
     todoHeader.setAttribute('id', 'todoHeader');
+    todoHeader.setAttribute('dataKey', 'all_Projects');
     todoList.setAttribute('id', 'todoList');
 
     todoHeader.appendChild(todoListProjectName('All Projects'));
