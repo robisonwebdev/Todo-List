@@ -1,4 +1,4 @@
-import checkboxEventListener from "./checkboxEventListener";
+import checkboxEventListener from './eventListeners/checkboxEventListener';;
 
 function displayTodoList(project) {
     const ul = document.createElement('ul');

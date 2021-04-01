@@ -1,4 +1,4 @@
-import checkboxEventListener from "./checkboxEventListener";
+import checkboxEventListener from './eventListeners/checkboxEventListener';
 import projects from "./projects";
 
 function displayAllTodoList() {
