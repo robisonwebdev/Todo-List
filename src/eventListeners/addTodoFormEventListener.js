@@ -1,7 +1,7 @@
-import addTodoItem from "./addTodoItem";
-import clearTodoContainer from "./clearTodoContainer";
-import findProject from "./findProject";
-import todoList from "./todoList";
+import addTodoItem from "../addTodoItem";
+import clearTodoContainer from "../clearTodoContainer";
+import findProject from "../findProject";
+import todoList from "../todoList";
 
 function addTodoFormEventListner(target) {
     target.addEventListener('click', () => {
