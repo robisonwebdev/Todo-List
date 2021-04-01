@@ -1,4 +1,4 @@
-import addItemBtnEventListener from "./addItemBtnEventListener";
+import addItemBtnEventListener from './eventListeners/addItemBtnEventListener';
 
 function addTodoItemBtn() {
     const addTodoItemBtn = document.createElement('div');
