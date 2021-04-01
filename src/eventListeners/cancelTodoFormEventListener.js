@@ -1,5 +1,5 @@
-import changeDisplay from "./changeDisplay";
-import removeTodoForm from "./removeTodoForm";
+import changeDisplay from "../changeDisplay";
+import removeTodoForm from "../removeTodoForm";
 
 function cancelTodoFormEventListener(target) {
 
