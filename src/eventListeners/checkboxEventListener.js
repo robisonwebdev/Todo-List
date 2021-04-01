@@ -1,8 +1,8 @@
-import deleteItem from "./deleteItem";
-import clearTodoContainer from './clearTodoContainer';
-import todoList from './todoList';
-import findProject from './findProject';
-import allTodos from "./allTodos";
+import deleteItem from "../deleteItem";
+import clearTodoContainer from '../clearTodoContainer';
+import todoList from '../todoList';
+import findProject from '../findProject';
+import allTodos from '../allTodos';
 
 function checkboxEventListener(target, todo) {
     
