@@ -1,4 +1,4 @@
-import addBtnEventLinstener from './addBtnEventListener';
+import addBtnEventListener from './eventListeners/addBtnEventListener';
 import cancelBtnEventListener from "./cancelBtnEventListener";
 
 function addProjectForm() {
@@ -25,7 +25,7 @@ function addProjectForm() {
     addBtn.innerText = 'Add';
     cancelBtn.innerText = 'Cancel';
 
-    addBtnEventLinstener(addBtn);
+    addBtnEventListener(addBtn);
     cancelBtnEventListener(cancelBtn);
 
     inputDiv.appendChild(label);
