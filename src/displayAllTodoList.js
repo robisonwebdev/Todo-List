@@ -1,3 +1,4 @@
+import checkboxEventListener from "./checkboxEventListener";
 import projects from "./projects";
 
 function displayAllTodoList() {
@@ -12,10 +13,13 @@ function displayAllTodoList() {
 
             item.setAttribute('class', 'item');
             checkbox.setAttribute('type', 'checkbox');
+            checkbox.setAttribute('dataKey', `${projects[i]['dataKey']}`);
             checkbox.setAttribute('name', `${projects[i]['dataKey']}_${projects[i]['todo'][j]}`);
             label.setAttribute('for', `${projects[i]['dataKey']}_${projects[i]['todo'][j]}`);
 
             label.innerText = projects[i]['todo'][j];
+
+            checkboxEventListener(checkbox, label.innerText);
 
             item.appendChild(checkbox);
             item.appendChild(label);
