@@ -1,22 +1,15 @@
-import projects from "./projects";
+import findProject from "./findProject";
 
 function deleteItem(dataKey, todo) {
-    for (let i = 0; i < projects.length; i++) {
+    let project = findProject(dataKey);
 
-        if (dataKey === projects[i]['dataKey']) {
+    for (let i = 0; i < project['todo'].length; i++) {
 
-            for (let j = 0; j < projects[i]['todo'].length; j++) {
-
-                if (todo === projects[i]['todo'][j]) {
-                    projects[i]['todo'].splice(j, 1);
-                }
-                
-            }
-
+        if (todo === project['todo'][i]) {
+            project['todo'].splice(i, 1);
         }
 
     }
-
 }
 
 export default deleteItem;
