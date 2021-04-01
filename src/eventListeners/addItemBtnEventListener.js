@@ -1,5 +1,5 @@
-import displayTodoForm from './displayTodoForm';
-import changeDisplay from './changeDisplay';
+import displayTodoForm from '../displayTodoForm';
+import changeDisplay from '../changeDisplay';
 
 function addItemBtnEventListener(target) {
     target.addEventListener('click', () => {
