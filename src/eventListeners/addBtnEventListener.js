@@ -3,7 +3,7 @@
 import addProject from "./addProject";
 import refreshProjectsContainer from './refreshProjectsContainer';
 
-function addBtnEventLinstener(target) {
+function addBtnEventListener(target) {
     target.addEventListener('click', () => {
         const inputValue = document.querySelector('#projectName').value;
 
@@ -14,4 +14,4 @@ function addBtnEventLinstener(target) {
     })
 }
 
-export default addBtnEventLinstener;
+export default addBtnEventListener;
