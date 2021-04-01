@@ -1,3 +1,5 @@
+import checkboxEventListener from "./checkboxEventListener";
+
 function displayTodoList(project) {
     const ul = document.createElement('ul');
 
@@ -14,6 +16,8 @@ function displayTodoList(project) {
 
         label.innerText = project['todo'][i];
 
+        checkboxEventListener(checkbox);
+        
         item.appendChild(checkbox);
         item.appendChild(label);
         li.appendChild(item);
