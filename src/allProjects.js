@@ -1,4 +1,4 @@
-import allProjectsEventListener from "./allProjectsEventListener";
+import allProjectsEventListener from './eventListeners/allProjectsEventListener';
 
 function allProjects() {
     const allProjects = document.createElement('div');

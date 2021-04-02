@@ -1,5 +1,5 @@
-import allTodos from "./allTodos";
-import clearTodoContainer from './clearTodoContainer';
+import allTodos from "../allTodos";
+import clearTodoContainer from '../clearTodoContainer';
 
 function allProjectsEventListener(target) {
     target.addEventListener('click', () => {
