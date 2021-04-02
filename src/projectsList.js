@@ -1,6 +1,6 @@
 import projects from './projects';
 import delBtnEventListener from './eventListeners/delBtnEventListener';
-import projectEventListener from './projectEventListener';
+import projectEventListener from './eventListeners/projectEventListener';
 
 function projectsList() {
     const projectsList = document.createElement('div');
