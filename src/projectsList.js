@@ -1,5 +1,5 @@
 import projects from './projects';
-import delBtnEventListener from './delBtnEventListener';
+import delBtnEventListener from './eventListeners/delBtnEventListener';
 import projectEventListener from './projectEventListener';
 
 function projectsList() {

@@ -1,7 +1,7 @@
 // Event listener to delete a project
 
-import deleteProject from './deleteProject';
-import refreshProjectsContainer from './refreshProjectsContainer';
+import deleteProject from '../deleteProject';
+import refreshProjectsContainer from '../refreshProjectsContainer';
 
 function delBtnEventListener(target, project) {
     target.addEventListener('click', () => {
