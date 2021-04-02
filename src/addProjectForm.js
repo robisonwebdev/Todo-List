@@ -1,5 +1,5 @@
 import addBtnEventListener from './eventListeners/addBtnEventListener';
-import cancelBtnEventListener from "./cancelBtnEventListener";
+import cancelBtnEventListener from './eventListeners/cancelBtnEventListener';
 
 function addProjectForm() {
     const projectsContainer = document.querySelector('#projectsContainer');
