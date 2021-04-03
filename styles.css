@@ -160,8 +160,10 @@ ul {
     justify-content: center;
     align-items: center;
 
+    background-color: var(--red);
+    border-top: 2px solid var(--black);
+    color: var(--darkerWhite);
+    font-weight: bold;
     height: 4vh;
     width: 100%;
-
-    background-color: rgb(61, 150, 73);
 }
