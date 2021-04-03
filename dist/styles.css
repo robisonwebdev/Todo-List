@@ -32,8 +32,12 @@ body {
     background-color: gray;
 }
 
+#headerTitle {
+    font-size: 36px;
+}
+
 #header .las {
-    font-size: 35px;
+    font-size: 36px;
     padding-left: 10px;
 }
 

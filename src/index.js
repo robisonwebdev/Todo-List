@@ -13,6 +13,6 @@ const container = document.querySelector('#container');
 
 // projectsList();
 
-container.appendChild(header('las la-list-ul', 'Todo List'));
+container.appendChild(header('las la-check-circle', 'Todo List'));
 container.appendChild(content());
 container.appendChild(footer('Developed by ', 'David Robison', 'https://github.com/robisonwebdev'));
