@@ -178,9 +178,16 @@ ul {
 }
 
 .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+
     background-color: var(--darkerWhite);
     border-left: 3px solid var(--red);
     padding-bottom: 10px;
+    padding-left: 10px;
     padding-top: 10px;
 }
 
