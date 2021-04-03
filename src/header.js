@@ -1,7 +1,7 @@
 function header(iconClass, text) {
     const header = document.createElement('div');
     const icon = document.createElement('i');
-    const title = document.createElement('h1');
+    const title = document.createElement('p');
 
     header.setAttribute('id', 'header');
     icon.setAttribute('class', iconClass);
