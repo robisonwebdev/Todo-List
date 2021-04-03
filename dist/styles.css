@@ -6,8 +6,8 @@
 :root {
     --black: #1b1717;
     --red: #630000;
-    --white: #eeebdd;
-    --darkerWhite: #d8d5c8;
+    --white: hsl(0, 0%, 99%);
+    --darkerWhite: hsl(0, 0%, 87%);
 }
 
 body {
@@ -60,10 +60,10 @@ body {
 }
 
 #projectsContainer {
+    background-color: var(--darkerWhite);
+    border-right: 1px solid var(--black);
     height: 100%;
     width: 20vw;
-    
-    background-color: rgb(214, 145, 145);
 }
 
 .las {
