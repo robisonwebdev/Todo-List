@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Lexend', sans-serif;
+}
+
 #container {
     display: flex;
     flex-direction: column;
