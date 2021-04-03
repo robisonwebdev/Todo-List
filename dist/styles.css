@@ -172,7 +172,16 @@ ul {
 }
 
 #todoContainer ul li {
-    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.item {
+    background-color: var(--darkerWhite);
+    border-left: 3px solid var(--red);
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 /* --- FOOTER --- */
