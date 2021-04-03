@@ -6,11 +6,12 @@
 :root {
     --black: #1b1717;
     --red: #630000;
-    --white: hsl(0, 0%, 99%);
-    --darkerWhite: hsl(0, 0%, 87%);
+    --white: hsl(0, 0%, 98%);
+    --darkerWhite: hsl(0, 0%, 90%);
 }
 
 body {
+    color: var(--black);
     font-family: 'Lexend', sans-serif;
 }
 
@@ -142,13 +143,26 @@ body {
 }
 
 #todoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
     background-color: var(--white);
     height: 100%;
     width: 80vw;
 }
 
+#todoHeader, #todoList, #addTodoItemBtn {
+    width: 90%;
+}
+
 ul {
     list-style-type: none;
+}
+
+#todoContainer ul li {
+    width: 90%;
 }
 
 /* --- FOOTER --- */
