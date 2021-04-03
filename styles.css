@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+:root {
+    --black: #1b1717;
+    --red: #630000;
+    --white: #eeebdd;
+    --darkerWhite: #d8d5c8;
+}
+
 body {
     font-family: 'Lexend', sans-serif;
 }
@@ -26,10 +33,11 @@ body {
     align-items: center;
     gap: 10px;
 
+    background-color: var(--red);
+    border-bottom: 2px solid var(--black);
+    color: var(--darkerWhite);
     height: 10vh;
     width: 100%;
-
-    background-color: gray;
 }
 
 #headerTitle {
