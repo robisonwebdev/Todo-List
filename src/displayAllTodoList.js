@@ -3,10 +3,12 @@ import projects from "./projects";
 
 function displayAllTodoList() {
     const ul = document.createElement('ul');
-    const li = document.createElement('li');
+    
 
     for (let i = 0; i < projects.length; i++) {
+        
         for (let j = 0; j < projects[i]['todo'].length; j++) {
+            const li = document.createElement('li');
             const item = document.createElement('div');
             const checkbox = document.createElement('input');
             const label = document.createElement('label');            
@@ -24,10 +26,12 @@ function displayAllTodoList() {
             item.appendChild(checkbox);
             item.appendChild(label);
             li.appendChild(item);
+            ul.appendChild(li);
         }
+        
     }
 
-    ul.appendChild(li);
+    
 
     return ul;
 }
