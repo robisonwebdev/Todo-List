@@ -20,11 +20,17 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    gap: 10px;
 
     height: 10vh;
     width: 100%;
 
     background-color: gray;
+}
+
+#header .las {
+    font-size: 35px;
+    padding-left: 10px;
 }
 
 /* --- CONTENT --- */
