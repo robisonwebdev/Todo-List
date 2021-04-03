@@ -167,3 +167,8 @@ ul {
     height: 4vh;
     width: 100%;
 }
+
+small a {
+    text-decoration: underline;
+    color: var(--darkerWhite);
+}
