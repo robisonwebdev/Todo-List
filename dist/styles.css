@@ -142,10 +142,9 @@ body {
 }
 
 #todoContainer {
+    background-color: var(--white);
     height: 100%;
     width: 80vw;
-
-    background-color: rgb(233, 214, 107);
 }
 
 ul {
