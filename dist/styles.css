@@ -6,6 +6,7 @@
 :root {
     --black: #1b1717;
     --red: #630000;
+    --red2: #810000;
     --white: hsl(0, 0%, 98%);
     --darkerWhite: hsl(0, 0%, 90%);
 }
@@ -191,6 +192,10 @@ ul {
     padding-top: 10px;
 }
 
+#todoContainer ul li:hover {
+    box-shadow: -1px 3px 3px -1px var(--red);
+}
+
 /* --- FOOTER --- */
 
 #footer {
@@ -206,6 +211,14 @@ ul {
     height: 4vh;
     width: 100%;
 }
+
+/* small {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+} */
 
 small a {
     text-decoration: underline;
