@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -220,14 +221,59 @@ ul {
     text-decoration-color: var(--red);
 }
 
-/* #todoForm {
+#todoForm {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
     width: 100%;
-} */
+}
+
+#todoInputDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#todoInput {
+    border: 1px solid var(--darkerWhite);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 40%;
+}
+
+#todoFormBtnsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 40%;
+}
+
+.todoFormBtns {
+    border: 1px solid var(--darkerWhite);
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin: 1px;
+    width: 100%;
+}
+
+.todoFormBtns:hover {
+    background-color: var(--darkerWhite);
+    border: 2px solid var(--red);
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+}
 
 /* --- FOOTER --- */
 
