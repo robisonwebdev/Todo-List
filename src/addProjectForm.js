@@ -6,16 +6,17 @@ function addProjectForm() {
     const addProjectForm = document.createElement('div');
     const inputDiv = document.createElement('div');
     const btnsDiv = document.createElement('div');
-    const label = document.createElement('label');
     const input = document.createElement('input');
     const addBtn = document.createElement('button');
     const cancelBtn = document.createElement('button');
 
     addProjectForm.setAttribute('id', 'addProjectForm');
-    label.setAttribute('for', 'projectName');
+    inputDiv.setAttribute('id', 'projectNameDiv');
     input.setAttribute('type', 'text');
     input.setAttribute('id', 'projectName');
+    input.setAttribute('placeholder', 'Project Name');
     input.setAttribute('name', 'projectName');
+    btnsDiv.setAttribute('id', 'projectFormBtnsDiv');
     addBtn.setAttribute('type', 'button');
     addBtn.setAttribute('class', 'addProjectFormBtns');
     cancelBtn.setAttribute('type', 'button');
@@ -28,7 +29,6 @@ function addProjectForm() {
     addBtnEventListener(addBtn);
     cancelBtnEventListener(cancelBtn);
 
-    inputDiv.appendChild(label);
     inputDiv.appendChild(input);
     btnsDiv.appendChild(addBtn);
     btnsDiv.appendChild(cancelBtn);
