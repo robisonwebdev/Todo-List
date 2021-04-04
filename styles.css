@@ -261,6 +261,7 @@ ul {
 
 .todoFormBtns {
     border: 1px solid var(--darkerWhite);
+    cursor: pointer;
     padding-bottom: 8px;
     padding-top: 8px;
     margin: 1px;
@@ -271,7 +272,6 @@ ul {
     background-color: var(--darkerWhite);
     border: 2px solid var(--red);
     margin: 0;
-    text-decoration: underline;
     text-decoration-color: var(--red);
 }
 
