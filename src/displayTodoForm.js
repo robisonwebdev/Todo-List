@@ -15,6 +15,7 @@ function displayTodoForm() {
     todoInput.setAttribute('type', 'text');
     todoInput.setAttribute('id', 'todoInput');
     todoInput.setAttribute('name', 'todoInput');
+    todoInput.setAttribute('placeholder', 'Enter Item');
     btnsDiv.setAttribute('id', 'todoFormBtnsDiv');
     addBtn.setAttribute('type', 'button');
     addBtn.setAttribute('class', 'todoFormBtns');
