@@ -11,9 +11,11 @@ function displayTodoForm() {
     const cancelBtn = document.createElement('button');
 
     todoForm.setAttribute('id', 'todoForm');
+    inputDiv.setAttribute('id', 'todoInputDiv');
     todoInput.setAttribute('type', 'text');
     todoInput.setAttribute('id', 'todoInput');
     todoInput.setAttribute('name', 'todoInput');
+    btnsDiv.setAttribute('id', 'todoFormBtnsDiv');
     addBtn.setAttribute('type', 'button');
     addBtn.setAttribute('class', 'todoFormBtns');
     cancelBtn.setAttribute('type', 'button');
