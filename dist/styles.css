@@ -201,12 +201,16 @@ ul {
 }
 
 #addTodoItemBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
     border: 1px solid var(--darkerWhite);
     border-radius: 5px;
     cursor: pointer;
     padding-bottom: 10px;
     padding-top: 10px;
-    text-align: center;
 }
 
 #addTodoItemBtn:hover {
@@ -215,6 +219,15 @@ ul {
     text-decoration: underline;
     text-decoration-color: var(--red);
 }
+
+/* #todoForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+} */
 
 /* --- FOOTER --- */
 
