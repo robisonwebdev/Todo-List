@@ -200,6 +200,22 @@ ul {
     box-shadow: -1px 3px 3px -1px var(--red);
 }
 
+#addTodoItemBtn {
+    border: 1px solid var(--darkerWhite);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#addTodoItemBtn:hover {
+    background-color: var(--darkerWhite);
+    border-color: var(--red);
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+}
+
 /* --- FOOTER --- */
 
 #footer {
