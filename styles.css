@@ -260,10 +260,8 @@ ul {
 }
 
 #addTodoItemBtn:hover {
-    background-color: var(--darkerWhite);
-    border-color: var(--red);
-    text-decoration: underline;
-    text-decoration-color: var(--red);
+    background-color: var(--red);
+    color: var(--white);
 }
 
 #todoForm {
@@ -288,6 +286,7 @@ ul {
 
 #todoInput {
     border: 1px solid var(--darkerWhite);
+    border-radius: 5px;
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: center;
@@ -305,19 +304,16 @@ ul {
 }
 
 .todoFormBtns {
-    border: 1px solid var(--darkerWhite);
+    border: 1px solid var(--black);
     cursor: pointer;
     padding-bottom: 8px;
     padding-top: 8px;
-    margin: 1px;
     width: 100%;
 }
 
 .todoFormBtns:hover {
-    background-color: var(--darkerWhite);
-    border: 2px solid var(--red);
-    margin: 0;
-    text-decoration-color: var(--red);
+    background-color: var(--red);
+    color: var(--white);
 }
 
 /* --- FOOTER --- */
