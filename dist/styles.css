@@ -67,7 +67,7 @@ body {
     background-color: var(--darkerWhite);
     border-right: 1px solid var(--black);
     height: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
     width: 20vw;
 }
 
